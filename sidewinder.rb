@@ -10,7 +10,7 @@ class Sidewinder
 				at_eastern_boundary = (cell.east == nil)
 				at_northern_boundary = (cell.north == nil)
 
-				should_close_out = 
+				should_close_out =
 					at_eastern_boundary ||
 					(!at_northern_boundary && rand(2) == 0)
 
